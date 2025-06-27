@@ -1,20 +1,6 @@
-search_services: # List all Cortex Search services
-  - service_name: "<service_name>"
-    description: > # Should start with "Search service that ..."
-      "<Search services that ...>"
-    database_name: "<database_name>"
-    schema_name: "<schema_name>"
-  - service_name: "<service_name>"
-    description: > # Should start with "Search service that ..."
-      "<Search services that ...>"
-    database_name: "<database_name>"
-    schema_name: "<schema_name>"
-analyst_services: # List all Cortex Analyst semantic models/views
-  - service_name: "<service_name>" # Create descriptive name for the service
-    semantic_model: "<semantic_yaml_or_view>" # Fully-qualify semantic YAML model or Semantic View
-    description: > # Should start with "Analyst service that ..."
-      "<Analyst service that ...>"
-  - service_name: "<service_name>" # Create descriptive name for the service
-    semantic_model: "<semantic_yaml_or_view>" # Fully-qualify semantic YAML model or Semantic View
-    description: > # Should start with "Analyst service that ..."
-      "<Analyst service that ...>"
+
+analyst_services:
+  - service_name: "Harini-agent"
+    semantic_model: "EMPLOYEE_STATS"
+    description: "Analyst service that helps with employee stats"
+
